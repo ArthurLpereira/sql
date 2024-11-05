@@ -1,12 +1,10 @@
+use mytransit;
 select * from turmas;
-select * from motivos;
 select * from utilizadores;
-select * from turmas;
 select * from notas_alunos;
 select * from turmas_has_utilizadores;
 select * from pedidos;
 select * from feedback;
-
 
 CREATE TABLE IF NOT EXISTS `feedback` (
   `id_feedback` int(11) NOT NULL AUTO_INCREMENT,
